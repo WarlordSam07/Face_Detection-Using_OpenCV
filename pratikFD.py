@@ -13,7 +13,7 @@ from random import randrange
 trained_face_data = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 #image reading 
-#img = cv2.imread('mum2.jpg')
+#img = cv2.imread('example.jpg')
 
 #video-image reading(real time)
 webcam = cv2.VideoCapture(0, cv2.CAP_DSHOW)
