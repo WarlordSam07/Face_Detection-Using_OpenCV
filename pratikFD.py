@@ -31,7 +31,7 @@ while True:
 
     #Drawing boxes around the faces
     for (x, y, w, h) in face_coordinates:  
-        cv2.rectangle(frame,(x, y),(x+w, y+h),(randrange(256),randrange(256),randrange(256)),3)\
+        cv2.rectangle(frame,(x, y),(x+w, y+h),(randrange(256),randrange(256),randrange(256)),3)
     
     # show image
     cv2.imshow('Pratik_Face_Detector_App',frame)
